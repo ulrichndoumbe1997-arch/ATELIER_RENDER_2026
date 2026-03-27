@@ -9,7 +9,7 @@ def home():
 
 @app.route("/health")
 def health():
-    return {"status": "ok"}
+    return {"status": "Tout est ok"}
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
